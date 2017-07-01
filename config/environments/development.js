@@ -13,7 +13,8 @@ const developmentConfig = {
   ],
   devServer: {
     hot: true,
-    contentBase: './public/assets',
+    // contentBase: './public/assets',
+    contentBase: './app/views/react-app',
     historyApiFallback: true,
     inline: true
   },
