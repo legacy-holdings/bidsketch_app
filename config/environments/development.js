@@ -14,7 +14,7 @@ const developmentConfig = {
   devServer: {
     hot: true,
     // contentBase: './public/assets',
-    contentBase: './app/views/react-app',
+    contentBase: './app/assets/apps/bidsketch/build/',
     historyApiFallback: true,
     inline: true
   },

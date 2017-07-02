@@ -1,3 +1,26 @@
+# Bidsketch App Directions (TMP)
+
+After playing around with the current webpack setup, I was having some trouble setting up a react project where `react.html.erb` or `public/assets/` would be the entry point to the app. 
+
+I decided to have the app entry point be `app/assets/apps/bidsketch/build`.  
+
+In the future, once I learn the setup and rails/react way, I will write using `SASS/SCSS`, for now using `CSS`.
+
+## Development - Frontend:
+
+From `app/assets/apps/bidsketch/`,
+run `yarn start`.
+
+## Temp Production Build - Frontend:
+
+From `app/assets/apps/bidsketch/`,
+run `yarn build`.
+
+## Start Rails
+
+Run `rails s`, navigate to port `3000`.
+
+
 # Bidsketch Coding Challenge
 
 This basic application is your starting point for the Bidsketch Coding Challenge.
