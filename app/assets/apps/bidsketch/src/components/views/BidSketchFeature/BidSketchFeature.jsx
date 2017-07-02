@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 
-import NavDrawer from "./common/NavDrawer";
-
-export default class Navigation extends Component {
+export default class BidSketchFeature extends Component {
     render() {
         return (
             <div>
-                <NavDrawer />
+                BidSketchFlow
             </div>
         );
     }

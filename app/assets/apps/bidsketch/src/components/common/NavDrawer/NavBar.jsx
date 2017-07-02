@@ -6,7 +6,7 @@ import AccountCircle from "material-ui/svg-icons/action/account-circle";
 import AppBar from "material-ui/AppBar";
 import IconButton from "material-ui/IconButton";
 import Menu from "material-ui/svg-icons/navigation/menu";
-import "./Navbar.css";
+import "./css/Navbar.css";
 
 export default class NavBar extends Component {
     render() {
@@ -17,7 +17,7 @@ export default class NavBar extends Component {
             title={
               <NavLink to="/">
                 <img
-                  className="aaws-logo"
+                  className="bidsketch-logo"
                   style={{ height: 30, width: 120, marginTop: 16 }}
                   src={require("./images/bidsketch.png")}
                 />
