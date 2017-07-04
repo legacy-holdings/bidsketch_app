@@ -1,0 +1,19 @@
+.document-container {
+    background: white;
+    width: 100px;
+    height: 140px;
+    margin: 15px;
+    display: inline-block;
+}
+
+.document-pages-column {
+    text-align: center;
+}
+
+.document-is-active {
+    border: 2px #0d626d solid; 
+}
+
+.document-is-disabled {
+    background: grey;
+}
