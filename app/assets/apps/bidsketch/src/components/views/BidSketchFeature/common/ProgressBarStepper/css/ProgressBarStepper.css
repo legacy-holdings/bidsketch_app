@@ -1,0 +1,9 @@
+.lin-progress-step-text {
+    float: right;
+    font-size: 12px;
+    margin-right: 15px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    background: #0d626d;
+}

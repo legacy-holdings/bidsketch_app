@@ -1,0 +1,112 @@
+.nav {
+    border-bottom: lightgrey 1px solid;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+}
+
+.document-nav {
+    border-bottom: lightgrey 1px solid;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 60px;
+}
+
+.document-nav-text {
+    color: grey;
+    font-size: 12.5px;
+    margin-top: 16px;
+    margin-left: 40px;
+}
+
+.document-nav-click-start-btn-container {
+    color: grey;
+    font-size: 12.5px;
+    text-align: center;
+    margin-top: -24px;
+    width: 100%;
+}
+
+.document-nav-btn-text {
+    font-size: 18px;
+    color: white;
+}
+
+.bidsketch-btn {
+    width: 140px;
+}
+
+.document-builder-container {
+    background: #f2f2f2;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 110px;
+    display: block;
+}
+
+@media (max-width: 576px) { 
+    .document-nav-text {
+        color: grey;
+        font-size: 12.5px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .document-nav-click-start-btn-container {
+        color: grey;
+        font-size: 12.5px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .document-nav {
+        border-bottom: lightgrey 1px solid;
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        top: 60px;
+    }
+
+    .document-builder-container {
+        background: #f2f2f2;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 160px;
+    }
+ }
+
+@media (max-width: 768px) { 
+    .document-nav-text {
+        color: grey;
+        font-size: 12.5px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .document-nav-click-start-btn-container {
+        color: grey;
+        font-size: 12.5px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .document-nav {
+        border-bottom: lightgrey 1px solid;
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        top: 60px;
+    }
+
+    .document-builder-container {
+        background: #f2f2f2;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 160px;
+    }
+ }
