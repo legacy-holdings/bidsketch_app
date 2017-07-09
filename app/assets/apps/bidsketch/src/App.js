@@ -9,6 +9,8 @@ import {
   push
 } from "react-router-redux";
 import { Provider } from "react-redux";
+import { persistStore } from "redux-persist";
+import localForage from "localforage";
 
 import Home from "./components/views/Home/Home";
 import BidSketchFeature from "./components/views/BidSketchFeature/BidSketchFeature";
@@ -17,31 +19,35 @@ import User from "./components/views/User/User";
 
 import { store, history } from "./store/configuredStore/store";
 
-
 class App extends Component {
-  componentDidMount() {}
-
-  render() {
-    return (
-      <Provider store={store}>
-        <ConnectedRouter history={history}>
-            <MuiThemeProvider>
-              <div>
-                <Switch>
-                  <Route path="/" exact component={Home} />
-                  <Route
-                    path="/bidsketch-feature"
-                    component={BidSketchFeature}
-                  />
-                  <Route path="/user" component={User} />
-                  <Route component={NotFound} />
-                </Switch>
-              </div>
-            </MuiThemeProvider>
-        </ConnectedRouter>
-      </Provider>
-    );
-  }
+    componentDidMount() {
+        setInterval(() => {
+            persistStore(store, {storage: localForage});    
+        }, 500);
+    }
+    
+    render() {
+        return (
+          <Provider store={store}>
+            <ConnectedRouter history={history}>
+                <MuiThemeProvider>
+                  <div>
+                    <Switch>
+                      <Route path="/" exact component={Home} />
+                      <Route
+                        path="/bidsketch-feature"
+                        component={BidSketchFeature}
+                      />
+                      <Route path="/user" component={User} />
+                      <Route component={NotFound} />
+                    </Switch>
+                  </div>
+                </MuiThemeProvider>
+            </ConnectedRouter>
+          </Provider>
+        );
+    }
 }
+
 
 export default App;

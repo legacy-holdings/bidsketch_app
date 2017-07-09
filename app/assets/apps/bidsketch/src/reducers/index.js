@@ -4,7 +4,7 @@
 import { combineReducers } from "redux";
 import { routerReducer as routing } from "react-router-redux";
 
-import bidSketchFeatureReducer from "./bidSketchFeatureReducer";
+import bidSketchFeatureReducer from "./bidsketch-feature-reducer.js";
 
 const rootReducer = combineReducers({
     routing,

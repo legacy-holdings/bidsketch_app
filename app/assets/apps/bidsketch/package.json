@@ -5,7 +5,10 @@
   "dependencies": {
     "history": "^4.6.3",
     "jquery": "^3.2.1",
+    "jsx-to-string": "^1.1.0",
+    "localforage": "^1.5.0",
     "material-ui": "^0.18.5",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.6.1",
@@ -14,7 +17,10 @@
     "react-router-dom": "^4.1.1",
     "react-router-redux": "^5.0.0-alpha.6",
     "react-scroll": "^1.5.4",
+    "react-slick": "^0.14.11",
     "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.7.1",
+    "redux-persist": "^4.8.2",
     "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
